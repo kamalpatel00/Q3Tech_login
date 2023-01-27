@@ -1,0 +1,28 @@
+{
+    "swagger": "3.0",
+    "info": {
+      "version": "1.0.0", 
+      "title": "Tutorial Login ",
+      "description": "Tutorial can register by mobile number ",
+      "license": {
+        "name": "MIT",
+        "url": "https://opensource.org/licenses/MIT"
+      }
+    },
+    "host": "localhost:4000",
+    "basePath": "/",
+    
+    "tags": [
+      {
+        "name": "Tutorials",
+        "description": "Tutorial can register by mobile number verified by otp"
+        
+      }
+    ],
+    "schemes": ["http"],
+    "consumes": ["application/json"],
+    "produces": ["application/json"]
+    
+  }
+
+  
